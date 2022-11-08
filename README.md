@@ -12,6 +12,8 @@ python -m pip install -r requirements.txt
 ### Depedences
 - https://pypi.org/project/colorama/
 - https://pypi.org/project/cryptography/
+- https://pypi.org/project/pyarmor/
+- https://pypi.org/project/pyinstaller/
 
 ### Usage
 ``` bash
