@@ -5,6 +5,17 @@ A Simple Rasomware Generator build using PYTHON.
 ### Disclaimer !
 This tool is for educational purposes only. I am not responsible for your harmful actions!
 
+### Features 
+- You can setting target disk/directory
+- You can setting icon
+- You can setting name of file
+- You can setting message for victim
+- You can setting target files to encrypt
+- Automatic change extension after encrypt
+- Automatic generate random key
+- Automatic build exe file and source code
+- Easy to use
+
 ### Installation
 ``` bash
 python -m pip install -r requirements.txt
