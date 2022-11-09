@@ -11,6 +11,8 @@ blue = Fore.BLUE
 white = Fore.WHITE
 
 
+
+
 def clear():
 	operating_system = platform.system()
 	if "indows" in operating_system:
@@ -50,7 +52,6 @@ dX.    9Xb      .dXb    __           """+yellow+"""v1.0"""+green+"""          __
 """+white)
 
 
-date = str(datetime.datetime.now().date())
 clear()
 #key 
 key = base64.urlsafe_b64encode(os.urandom(32)).decode('utf-8')
@@ -111,8 +112,12 @@ readme = open(r_in, "r").read()
 
 clear()
 
-fout = os.path.join("output", date)
+pwd = os.getcwd()
+date = str(datetime.datetime.now().date())
+fout = os.path.join(pwd, "output", date)
+
 try:
+	os.mkdir("output")
 	os.mkdir(fout)
 except:
 	pass
