@@ -8,7 +8,7 @@
 
 > **This tool is for educational purposes only! I am not responsible for any harmful actions taken with this tool. Use responsibly!**
 
-(VIRUS TOTAL SCAN)[https://www.virustotal.com/gui/file/4bcb787291e56dcafbf643a5ef4621b2834519a79ad5dafe4b80661d79e6bf1e/detection]
+[Virus Total Result](https://www.virustotal.com/gui/file/4bcb787291e56dcafbf643a5ef4621b2834519a79ad5dafe4b80661d79e6bf1e/detection)
 
 ## Features
 
