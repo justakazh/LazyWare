@@ -1,4 +1,6 @@
-cryptography==38.0.3
 colorama==0.4.6
-pyarmor==7.7.0
+cryptography==43.0.1
+pyarmor==8.5.12
+pyarmor.cli.core==6.5.3
 pyinstaller==6.10.0
+pyinstaller-hooks-contrib==2024.8
